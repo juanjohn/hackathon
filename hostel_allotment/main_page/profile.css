@@ -1,0 +1,119 @@
+*{
+	margin:0px 0px;
+	padding:0px 0px;
+	color:#000;
+}
+header, nav, section, article, footer ,aside, hgroup{
+	display:inline-block;
+}
+ul{
+	list-style:none;
+}
+#big_wrapper : not(#header_main){
+	position:relative;
+	height:20px;
+	width:1000px;
+	border:1px solid black;
+}
+#big_wrapper{	
+  	text-align: center;
+ 	position:relative;
+ 	margin: -15px 0px 0px;
+}
+#header_main{
+	background-image: url(../images/rugged.jpg);
+	text-align:left;
+	position:relative;
+	width:100%;
+	top:0px;
+	height:150px;
+}
+section{
+	margin:10px 0px;
+	padding:10px;
+	position:relative;
+	text-align:left;
+	width:900px;
+	min-height:600px;
+	border:2px solid #b3b8c8;
+	background-color:#fff;
+}
+#footer{
+	background-image: url(ruggd.jpg);
+	position:relative;
+	bottom:0px;
+	width:100%;
+	height:100px;
+	margin-top:20px;
+	border-top:2px solid #b3b8c8;
+}
+#footer p {
+	color:#FFF;
+}
+#aside_left{
+	position:relative;
+	width:220px;
+	float:left;
+	height:600px;
+	margin:10px 5px 0px;
+	padding:10px;
+	background-color:#fff;
+}
+#section_left{
+	float:left;
+}
+#section_right{
+	float:right;
+	position:relative;
+	margin:0px 10px;
+	width:250px;	
+	float:right;
+}
+#section_right div{
+	margin:4px 0px;
+}
+#section_left ul{
+	cursor:pointer;
+}
+input{
+	margin:4px 0px;
+	padding:3px;
+}
+input[type="button"],[type="submit"]{
+	padding:1px;
+}
+i{
+	color:blue;
+	font-style:normal;
+}
+#file_list_ul{
+	width:100%;
+}
+#file_list tr:nth-child(odd){
+	background-color:#e8e9e9;
+}
+#file_list tr{
+	cursor:pointer;
+}
+.users{
+	width:150px;
+}
+#header_main p {
+	color:#fff;
+}
+input[type="text"],[type="password"],#file_list{
+	width:200px;
+	border:2px solid white; 
+    box-shadow:inset 0 0 8px  rgba(0,0,0,0.1), 0 0 16px rgba(0,0,0,0.2); 
+}
+section,#aside_left,#aside_left #chat_msgs{
+	border:2px solid white;
+	box-shadow:inset 0 0 8px rgba(0,0,0,0.1), 0 0 16px rgba(0,0,0,0.5);
+}
+#aside_left{
+	position:static;
+	z-index:10;
+}
+#search_section{
+	float:right;
+}
